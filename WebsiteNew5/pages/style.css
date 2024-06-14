@@ -1,0 +1,31 @@
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"], textarea, input[type="file"], button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+button {
+    background-color: #6477e0;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+}

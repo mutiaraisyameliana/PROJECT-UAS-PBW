@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+*{
+    position: relative;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+      
+.container {
+    width: 80%;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.container2 {
+    padding: 5%;
+    width: 40%;
+    margin: 20px auto;
+    margin-top: 0%;
+    background-image: url('index.png');
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: rgb(0, 0, 0);
+    border:5px outset #999;
+
+}
+
+h1{
+    text-align: center;
+}
+      
+form {
+    margin-bottom: 20px;
+  }
+
+      
+input[type="text"],input[type="password"],input[type="email"] ,textarea, input[type="file"], button {
+    display: block;
+    margin-bottom: 10px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 35%;
+    font-size: 16px;
+}
+
+button{
+    background-color: rgb(81, 98, 255);
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(116, 130, 255, 0.9);
+}
+/* button:hover{
+    background-color: rgba(1, 7, 61, 0.9);
+}
+       */
+.error {
+    color: red;
+}
+      
+a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.journal-image {
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+      
+iframe {
+    border: none;
+}
